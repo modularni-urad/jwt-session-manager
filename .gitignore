@@ -1,0 +1,13 @@
+package-lock.json
+npm-debug.log
+node_modules/
+./index.html
+*.min.jss
+vars.env
+.*
+js/main.js
+*.sh
+*.sqlite
+.env
+docker-compose.yml
+dev/

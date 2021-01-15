@@ -1,0 +1,21 @@
+{
+  "name": "jwt-session-manager",
+  "version": "1.0.0",
+  "description": "mikroservice pro enc/dekodovani JWT tokenu",
+  "main": "server.js",
+  "scripts": {
+    "start": "node -r esm server.js",
+    "startdbg": "node -r esm --inspect-brk server.js"
+  },
+  "author": "Vaclav Klecanda <vencax77@gmail.com> (http://vxk.cz)",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "esm": "^3.2.25",
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "engines": {
+    "node": ">=12"
+  }
+}
