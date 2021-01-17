@@ -20,6 +20,7 @@ app.get('/verify/:token', (req, res, next) => {
 })
 
 app.post('/logout', (req, res, next) => {
+  res.json({ status: 'ok' })
 })
 
 app.listen(port, host, (err) => {
