@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: jwt-session-manager
+  labels:
+    app: jwt-session-manager
+spec:
+  containers:
+  - name: jwt-session-manager
+    image: modularni-urad/jwt-session-manager
+    imagePullPolicy: Never
+    env:
+    - name: SERVER_SECRET
+      value: XXX
+    - name: HOST
+      value: 0.0.0.0

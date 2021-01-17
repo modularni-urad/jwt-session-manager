@@ -10,4 +10,3 @@ js/main.js
 *.sqlite
 .env
 docker-compose.yml
-dev/
