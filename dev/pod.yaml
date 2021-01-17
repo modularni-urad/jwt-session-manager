@@ -7,7 +7,7 @@ metadata:
 spec:
   containers:
   - name: jwt-session-manager
-    image: modularni-urad/jwt-session-manager
+    image: modularniurad/jwt-session-manager
     imagePullPolicy: Never
     env:
     - name: SERVER_SECRET

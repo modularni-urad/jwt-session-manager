@@ -17,7 +17,7 @@ idealně pomocí orchestrátoru jako např. [kubernetes](https://kubernetes.io/)
 
 ```
 eval $(minikube -p minikube docker-env)
-docker build . -f dev/Dockerfile -t modularni-urad/jwt-session-manager
+docker build . -f dev/Dockerfile -t modularniurad/jwt-session-manager
 kubectl apply -f dev/pod.yaml
 ```
 
